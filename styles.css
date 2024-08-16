@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e74c3c;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+#videoResults {
+  margin-top: 20px;
+  text-align: left; 
+}
+
+#videoResults img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+#favoritesList {
+  list-style: none;
+  padding: 0;
+}
+
+#favoritesList li {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#favoritesList li strong {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#favoritesList button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #e74c3c; 
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#favoritesList button:hover {
+  background-color: #c0392b;
+}
+
+.comment {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment p {
+  margin: 0;
+  color: #333;
+}
+
+.comment button {
+  background-color: #3498db; 
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.comment button:hover {
+  background-color: #2980b9;
+}
